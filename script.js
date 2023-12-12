@@ -54,7 +54,7 @@ export function aufgabe06(args) {
   if (input === "") {
     return false
   }
-  for (let i = 0; i < input.lenght; i++) {
+  for (let i = 0; i < input.length; i++) {
     const currentElement = input[i].toLowerCase()
     if (currentElement.charCodeAt() < 97 || currentElement.charCodeAt() > 122) {
       if (currentElement.charCodeAt() != 32) {
@@ -64,4 +64,8 @@ export function aufgabe06(args) {
   }
 
   return false
+}
+
+export function aufgabe07(args) {
+  const input = args
 }
